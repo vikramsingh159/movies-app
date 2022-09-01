@@ -1,0 +1,14 @@
+@import '../../common/Style/Style.css';
+
+
+
+.footer {
+    background: var( --bs-gray);
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bs-white);
+    flex-direction: column;
+  }
+  

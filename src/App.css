@@ -1,0 +1,19 @@
+@import '../src/common/Style/Style.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background: var( --bs-darkblue);
+}
+.container {
+  margin: 0px 40px;
+}

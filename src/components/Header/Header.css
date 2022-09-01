@@ -1,0 +1,22 @@
+@import '../../common/Style/Style.css';
+
+.header {
+  background-color: var( --bs-gray);
+  height: 72px;
+  padding: 0px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  color: var(--bs-white);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-image,
+.user-image img {
+  width: 38px;
+  height: 38px;
+}
