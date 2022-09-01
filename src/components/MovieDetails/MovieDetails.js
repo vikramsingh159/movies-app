@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react';
-import './MovieDetail.css';
-import { useParams } from 'react-router';
-import { useDispatch, useSelector } from 'react-redux';
+import React, { useEffect } from "react";
+import "./MovieDetail.css";
+import { useParams } from "react-router";
+import { useDispatch, useSelector } from "react-redux";
 import {
   fetchAsyncMovieOrShowDetail,
   getSelectedMovieOrShow,
   removeSelectedMovieOrShow,
-} from '../../features/Movies/movieSlice.js';
+} from "../../features/Movies/movieSlice.js";
 
 const MovieDetail = () => {
   const { imdbID } = useParams();
@@ -32,7 +32,7 @@ const MovieDetail = () => {
                 IMDB Rating <i className="fa fa-star"></i> : {data.imdbRating}
               </span>
               <span>
-                IMDB Votes <i className="fa fa-thumbs-up"></i> :{' '}
+                IMDB Votes <i className="fa fa-thumbs-up"></i> :{" "}
                 {data.imdbVotes}
               </span>
               <span>

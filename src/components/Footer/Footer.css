@@ -1,14 +1,13 @@
 @import '../../common/Style/Style.css';
 
-
-
-.footer {
-    background: var( --secondary);
-    height: 72px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--font);
-    flex-direction: column;
-  }
-  
+footer {
+  width: 100%;
+  position: fixed;
+  background: var(--secondary);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--font);
+  flex-direction: column;
+}

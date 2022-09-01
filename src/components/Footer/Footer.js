@@ -1,12 +1,13 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div>Movie App</div>
-      <div>@2022, Movie,Inc. or its affiliates</div>
-    </div>
+    <footer className=" container-fluid bg-dark main-footer">
+      <h6 className="text-white text-center py-2">
+        Copyright 2022 Movies, All Right Reserved
+      </h6>
+    </footer>
   );
 };
 
