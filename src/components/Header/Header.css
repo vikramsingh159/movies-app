@@ -1,7 +1,7 @@
 @import '../../common/Style/Style.css';
 
 .header {
-  background-color: var( --bs-gray);
+  background-color: var( --secondary);
   height: 72px;
   padding: 0px 48px;
   display: flex;
@@ -10,7 +10,7 @@
 }
 
 .logo {
-  color: var(--bs-white);
+  color: var(--font);
   font-size: 20px;
   font-weight: 600;
 }

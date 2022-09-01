@@ -3,12 +3,12 @@
 
 
 .footer {
-    background: var( --bs-gray);
+    background: var( --secondary);
     height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--bs-white);
+    color: var(--font);
     flex-direction: column;
   }
   

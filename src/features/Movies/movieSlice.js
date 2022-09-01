@@ -9,7 +9,7 @@ export const store = configureStore({
 export const fetchAsyncMovies = createAsyncThunk(
   'movies/fetchAsyncMovies',
   async () => {
-    const movieText = 'Harry';
+    const movieText = 'Lal';
     const response = await movieApi.get(
       `?apiKey=${APIKey}&s=${movieText}&type=movie`
     );
