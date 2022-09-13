@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className=" container-fluid bg-dark main-footer">
       <h6 className="text-white text-center py-2">
-        Copyright 2022 Movies, All Right Reserved
+      © Vikram Singh 2022 Copyright Movies, All Right Reserved
       </h6>
     </footer>
   );
