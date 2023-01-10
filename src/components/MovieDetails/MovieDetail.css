@@ -9,7 +9,7 @@
   font-weight: 400;
 }
 .section-left {
-  width: 80%;
+  width: 78%;
 }
 .movie-rating {
   padding-left: 3px;
@@ -60,5 +60,27 @@ span {
 
 .section-right {
   width: 20%;
-  margin-left: 30px;
+
 }
+
+
+/* Responsive */
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+  .section-right {
+    width: 100%;
+  
+  }
+  .section-left {
+    width: 100%;
+  }
+  .movie-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    color: var(--font);
+    font-weight: 400;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+ }
